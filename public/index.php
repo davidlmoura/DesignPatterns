@@ -1,12 +1,12 @@
 <?php
 require_once "../autoload.php";
 
-use SON\Elements\Input;
+use SON\Elements\Campo;
 use SON\Form;
 
 $form = new Form;
-$inputNome = new Input(['type' => 'text', 'name' => 'nome']);
-$inputSubmit = new Input(['type' => 'submit', 'value' => 'Enviar']);
+$inputNome = new Campo(['type' => 'text', 'name' => 'nome']);
+$inputSubmit = new Campo(['type' => 'submit', 'value' => 'Enviar']);
 $form->addField($inputNome)->addField($inputSubmit);
 ?>
 <html>

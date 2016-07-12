@@ -4,7 +4,7 @@ namespace SON\Elements;
 
 use SON\Render\FormInfo;
 
-class Input implements FormInfo
+class Campo implements FormInfo
 {
     protected $attributes = [];
 
