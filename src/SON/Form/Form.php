@@ -1,6 +1,6 @@
 <?php
 
-namespace SON;
+namespace SON\Form;
 
 use SON\Render\FormInfo;
 
@@ -52,6 +52,6 @@ class Form implements FormInfo
         foreach ($this->fields as $field) {
             $field->render();
         }
-        echo'</form>';
+        echo '</form>';
     }
 }
